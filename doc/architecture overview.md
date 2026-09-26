@@ -81,6 +81,7 @@ Deployment helper capabilities include:
 - Uberjar packaging
 - jlink + jpackage packaging
 - GraalVM/native optimization support
+- Be Placed inside another Clojure application 
 
 This component acts as the operational wrapper around the rendering system.
 
@@ -175,6 +176,7 @@ project:
   deployment_modes:
     - centralized_server
     - standalone_installation
+    - another_clojure_application
   packaging_options:
     - uberjar
     - jlink_plus_jpackage
